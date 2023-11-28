@@ -2,4 +2,5 @@
 venv/Lib
 .pytest_cache
 .idea
+__pycache__
 results
