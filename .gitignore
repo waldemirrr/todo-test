@@ -1,0 +1,5 @@
+# created by virtualenv automatically
+venv/Lib
+.pytest_cache
+.idea
+results
