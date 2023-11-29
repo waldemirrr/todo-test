@@ -121,6 +121,7 @@ class TodosPage(BasePage):
             if importance == todo_importance and text == todo_text:
                 return todo
 
+    @allure.step('Есть ли конкретная задача')
     def is_there_specific_todo(self, text, importance):
         active_todos = self.driver.find_elements(*self.locators.ACTIVE_TODO)
         for todo in active_todos:
